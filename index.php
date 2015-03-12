@@ -16,16 +16,14 @@
     <body>
 
         <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Behaviours
+            <button class="btn btn-default dropdown-toggle" type="button" id="label" data-toggle="dropdown" aria-expanded="true">
+            Behaviours
             <span class="caret"></span>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-                <li role="presentation"> <a role="menuitem" tabindex="-1" href="#">Item</a> </li>
-                <li role="presentation"> <a role="menuitem" tabindex="-1" href="#">Item</a> </li>
-                <li role="presentation"> <a role="menuitem" tabindex="-1" href="#">Item</a> </li>
-            </ul>
-            </buton>
-
+            </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="label">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="behaviours/basic_pathing/">A star</a></li>
         </div>
+
 
     </body>
 </html>
